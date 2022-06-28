@@ -1,0 +1,11 @@
+.match-list {
+    height: 240px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    overflow-x: auto;
+    padding: 8px;
+}
+.match-list::-webkit-scrollbar {
+    display: none;
+}

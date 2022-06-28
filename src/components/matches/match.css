@@ -1,0 +1,119 @@
+.match-card {
+    height: 230px;
+    min-width: 330px;
+    margin-left: 12px;
+    background-color: #2f303a73;
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+.match-card > .match-header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.match-header > .left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.match-header > .left > .location {
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+}
+.match-header > .left > .upper-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.match-header > .left > .upper-box > .match-status {
+    font-size: 11px;
+    padding: 4px 7px;
+    border-radius: 22px;
+    border: 1px solid rgb(84, 224, 84);
+}
+
+
+.match-header > .notify  {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000214fa;
+}
+.match-card > .match-details {
+    margin-top: 15px;
+    height: 80px;
+    width: 100%;
+}
+.match-details > .match-time {
+    margin-top: 8px;
+    background-color: #000214fa;
+    font-size: 12px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.match-details > .match-info {
+    color: #ffffff;
+    background-color: #000214fa;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 20px;
+}
+.match-details > .match-info > .vs {
+    border-radius: 22px;
+    border: 1px solid rgb(84, 224, 84);
+    padding: 5px 10px;
+}
+.match-card > .match-bottom {
+    margin-top: 8px;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #000214fa;
+    height: 30%;
+}
+.match-bottom > p {
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.match-bottom > .match-line {
+    height: 5px;
+    border-radius: 22px;
+    display: flex;
+
+}
+.match-bottom > .match-line > .left-line {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(84, 224, 84);
+}
+.match-bottom > .match-line > .right-line {
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff;
+}
+.match-bottom > .team-per {
+    font-size: 12px;
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
